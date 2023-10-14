@@ -29,7 +29,7 @@ adib
 adib
 
 ## Deployment Link
-()
+(https://khanadib21.github.io/Weather-Dashboard/)
 
 ## Questions
 For additional questions, you can reach me through:
