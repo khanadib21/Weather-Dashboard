@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./cssjs/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <header id="header" class="container"><h1>Weather Dashboard</h1></header>
+    <div class="inputFieldDiv">
+        <input type="text" id="search-input" style="height: 35px;">
+        <button id="search-btn" style="font-size: 25px; margin-left: 10px;">Search</button>
+    </div>
+    <div style="text-align: center" id="search-history">
+        <h2>History:</h2>
+        <ul id="recent-search">
+        </ul>
+    </div>
+    <div class="container" style="margin-left: 40%;">
+        <section class="row justify-center">
+            <h2>Today's Weather Forecast</h2>
+            <div>
+                <a href="./images/default-img.png" target=""><img id="weather-icon" src="./images/default-img.png" alt="Current Date and Weather displayed for the searched city which includes: Temp, Humidity, and Wind."></a>
+                <p id="day"></p>
+                <p id="humid">Humidity:</p>
+                <p id="temperature">Temp:</p>
+                <p id="wind">Wind:</p>
+            </div>
+        </section>
+        
+        <section class="row">
+            <br>
+            <h2>1st Day Forecast</h2>
+            <div >
+                <p id="day1"></p>
+                <a href="./images/default-img.png" target=""><img id="day-icon1" src="./images/default-img.png" alt=""></a>
+                <p id="humidity1">Humidity:</p>
+                <p id="temperature1">Temp:</p>
+                <p id="wind1">Wind:</p>
+            </div>
+            
+            <br>
+            <h2>2nd Day Forecast</h2>
+            <div >
+                <p id="day2"></p>
+                <a href="./images/default-img.png" target=""><img id="day-icon2" src="./images/default-img.png" alt=""></a>
+                <p id="humidity2">Humidity:</p>
+                <p id="temperature2">Temp:</p>
+                <p id="wind2">Wind:</p>
+            </div>
+            
+            <br>
+            <h2>3rd Day Forecast</h2>
+            <div >
+                <p id="day3"></p>
+                <a href="./images/default-img.png" target=""><img id="day-icon3" src="./images/default-img.png" alt="Three Day's away weather forecast, displayed for the searched city which includes: City, Date, Weather Icon, Temp, Humidity, and Wind."></a>
+                <p id="humidity3">Humidity:</p>
+                <p id="temperature3">Temp:</p>
+                <p id="wind3">Wind:</p>
+            </div>
+            
+            <br>
+            <h2>4th Day Forecast</h2>
+            <div >
+                <p id="day4"></p>
+                <a href="./images/default-img.png" target=""><img id="day-icon4" src="./images/default-img.png" alt=""></a>
+                <p id="humidity4">Humidity:</p>
+                <p id="temperature4">Temp:</p>
+                <p id="wind4">Wind:</p>
+            </div>
+            
+            <br>
+            <h2>5th Day Forecast</h2>
+            <div >
+                <p id="day5"></p>
+                <a href="./images/default-img.png" target=""><img id="day-icon5" src="./images/default-img.png" alt=""></a>
+                <p id="humidity5">Humidity:</p>
+                <p id="temperature5">Temp:</p>
+                <p id="wind5">Wind:</p>
+            </div>
+            
+        </section>
+    </div>
+</body>
+</html>
+
+<script src="./cssjs/js/javascript.js"></script>

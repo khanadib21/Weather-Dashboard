@@ -1,0 +1,44 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px 70px;
+}
+
+.inputFieldDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Search History Styles */
+#recent-search {
+  font-size: 1.2rem;
+  color: rgba(15, 14, 14, 0.769);
+}
+#recent-search {
+  cursor: pointer;
+}
+
+#search-btn {
+  cursor: pointer;
+}
+
+/* Header Styles */
+header {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 1rem;
+  text-align: center;
+}
